@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Entry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="title"><h2>Add New Entry</h2></div>
+        <div class="form">
+            <input type="text" value="" placeholder="First Name" id="firstname">
+            <input type="text" value="" placeholder="Last Name" id="lastname">
+            <input type="text" value="" placeholder="City" id="city">
+            <input type="text" value="" placeholder="Country" id="country">
+        </div>
+        <div class="buttons">
+            <button id="addBottom">Add row to bottom</button>
+            <button id="addTop">Add row to top</button>
+        </div>
+    </div>
+    <div class="data">
+        <table id="table"> 
+            <tr id="headRow">
+                <th>Sl.No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td class="serial">1</td>
+                <td>Mohammed</td>
+                <td>Shafeeq</td>
+                <td>Malappuram</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td class="serial">2</td>
+                <td>Abdul</td>
+                <td>Kareem</td>
+                <td>Kottakkal</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td class="serial">3</td>
+                <td>Thomas</td>
+                <td>Paul</td>
+                <td>New York</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td class="serial">4</td>
+                <td>Raju</td>
+                <td>Antony</td>
+                <td>Rome</td>
+                <td>Italy</td>
+            </tr>
+            <tr>
+                <td class="serial">5</td>
+                <td>Sulthan</td>
+                <td>Ahammad</td>
+                <td>Dubai</td>
+                <td>UAE</td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
